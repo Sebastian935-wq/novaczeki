@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "novaczeki",
+  "version": "${version}",
+  "name": "NOVACZEKI",
+  "description": "Klient: GUI do szybkiego wypłacania czeków (/czek) na Anarchia.gg.",
+  "authors": ["NOVACZEKI"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.novaczeki.NovaCzekiClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
